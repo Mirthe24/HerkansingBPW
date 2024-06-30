@@ -3,8 +3,8 @@ using UnityEngine.SceneManagement;
 
 public class StartButtonScript : MonoBehaviour
 {
-    public void StartGame()
+    public void SwitchScene(string SampleScene)
     {
-        SceneManager.LoadScene("SampleScene"); // Load the "SampleScene" when the button is clicked
+        SceneManager.LoadScene(SampleScene);
     }
 }
